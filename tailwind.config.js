@@ -8,7 +8,7 @@ module.exports = {
         offWhite: "rgba(17, 17, 17, 0.05)",
         textPrimary: "#111111",
         textSecondary: "rgba(17, 17, 17, 0.7)",
-        borderColor: "rgba(17, 17, 17, 0.1) ",
+        borderColor: "rgba(17, 17, 17, 0.1)",
       },
       width:{
         primary: "1440px"
