@@ -4,7 +4,7 @@ const accordings = document.querySelectorAll('#accordings')
 const callActive = document.querySelectorAll('#callActive')
 
 homeBtn.addEventListener("click", function(){
-    window.location.href = '/'
+    window.location.href = '/assignment-5'
 })
 
 accordings.forEach((item, index) =>{
