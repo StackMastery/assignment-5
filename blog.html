@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate To For Flood Relief In Bangladesh</title>
+    <link rel="shortcut icon" href="assets/icon/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .activeAccording{
+            #content{
+                display: flex !important;
+            }
+            border-bottom: 1px solid #B4F461;
+            svg{
+                transform: rotate(-180deg);
+            }
+        }
+    </style>
+</head>
+<body class="font-primary overflow-x-hidden">
+    <!-- header -->
+    <header>
+        <div  class="fixed top-0 left-0 w-full z-50 flex justify-center backdrop-blur-[6px] bg-[#fef3e0b3]">
+            <div class="inline-flex justify-between items-center w-primary px-5 py-5">
+                <div>
+                    <button
+                        id="homeBtn"
+                        class="bg-primary p-7 py-2 rounded-lg font-semibold text-base transition-colors border border-primary hover:border-textPrimary hover:bg-transparent">
+                        Home
+                    </button>
+                </div>
+                <div class="items-center gap-4 cursor-pointer hidden min-[400px]:flex">
+                    <img width="44px" src="assets/icon/logo.svg" alt="Logo">
+                    <span class="font-semibold text-[24px] text-textPrimary hidden xl:block">Donate Bangladesh</span>
+                </div>
+                <div>
+                    <div class="bg-offWhite p-2 px-3 rounded-lg flex items-center gap-3 w-fit">
+                        <img width="20px" src="assets/icon/Currency.svg" alt="Curency">
+                        <span id="wallet" class="text-base text-textSecondary font-medium">0 BDT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <main class="pt-[17.5rem] min-[400px]:pt-[12.5rem]">
+        <section class="flex justify-center">
+            <div class="inline-flex justify-center w-primary flex-col gap-10 px-5">
+                <h2 class="text-3xl pb-10 border-b w-full border-borderColor">Freequently Ask Faqs <span class="animate-pulse text-4xl">?</span></h2>
+                <div class="w-full justify-center">
+                    <div id="accordings" class="border-b border-borderColor py-10">
+                        <div class="flex justify-between items-center gap-5 cursor-pointer w-full" id="callActive">
+                            <h2 class="text-base md:text-xl text-textPrimary hover:text-stone-500">What is the DOM?</h2>
+                            <svg width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                        </div>
+                        <p id="content" class="text-textSecondary text-base font-light md:text-lg hidden pt-5">The DOM (Document Object Model) is a programming interface for web documents. It represents the structure of a document as a tree of objects, making HTML or XML documents accessible and manipulable using scripting languages like JavaScript.</p>
+                    </div>
+                    <div id="accordings" class="border-b border-borderColor py-10">
+                        <div class="flex justify-between items-center gap-5 cursor-pointer w-full" id="callActive">
+                            <h2 class="text-base md:text-xl text-textPrimary hover:text-stone-500"> What does the DOM represent?</h2>
+                            <svg width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                        </div>
+                        <p id="content" class="text-textSecondary text-base font-light md:text-lg hidden pt-5">The DOM represents the structure of a webpage as a tree, where each node is an object. These nodes correspond to elements, attributes, and text in the HTML document. It allows dynamic access to and manipulation of the page's content and structure.</p>
+                    </div>
+                    <div id="accordings" class="border-b border-borderColor py-10">
+                        <div class="flex justify-between items-center gap-5 cursor-pointer w-full" id="callActive">
+                            <h2 class="text-base md:text-xl text-textPrimary hover:text-stone-500">How can I access the DOM in JavaScript?</h2>
+                            <svg width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                        </div>
+                        <p id="content" class="text-textSecondary text-base font-light md:text-lg hidden pt-5">
+                            You can access and manipulate the DOM using JavaScript. For example:
+
+                            document.getElementById('elementID') retrieves an element by its ID.
+                            document.querySelector('.className') selects an element based on a CSS selector.
+                            document.createElement('tagName') creates a new element in the DOM.
+                        </p>
+                    </div>
+                    <div id="accordings" class="border-b border-borderColor py-10">
+                        <div class="flex justify-between items-center gap-5 cursor-pointer w-full" id="callActive">
+                            <h2 class="text-base md:text-xl text-textPrimary hover:text-stone-500">What are DOM elements?</h2>
+                            <svg width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                        </div>
+                        <p id="content" class="text-textSecondary text-base font-light md:text-lg hidden pt-5">
+                            DOM elements are the objects in the DOM tree that represent the HTML elements of a webpage, such as div, p, a, etc. You can interact with these elements by accessing their properties and methods, such as element.textContent or element.style.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#F9F7F3] py-32 mt-20"></footer>
+    <script src="js/blog.js"></script>
+</body>
+</html>

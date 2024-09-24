@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate To For Flood Relief In Bangladesh</title>
     <link rel="shortcut icon" href="assets/icon/logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tailwind.css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <style>
         .openModal{
@@ -28,37 +28,37 @@
     <!-- header -->
     <header>
         <div  class="fixed top-0 left-0 w-full z-50 flex justify-center backdrop-blur-[6px] bg-[#fef3e0b3]">
-            <div class="inline-flex justify-between items-center w-primary px-10 py-5">
-                <div class="hidden min-[400px]:block">
+            <div class="inline-flex justify-between items-center w-primary px-5 py-5">
+                <div>
                     <button
                         id="headerBtn"
-                        class="bg-primary p-10 py-3 rounded-lg font-semibold text-xl transition-colors border border-primary hover:border-textPrimary hover:bg-transparent">
+                        class="bg-primary p-7 py-2 rounded-lg font-semibold text-base transition-colors border border-primary hover:border-textPrimary hover:bg-transparent">
                         Blog
                     </button>
                 </div>
-                <div class="flex items-center gap-4 cursor-pointer">
-                    <img width="48px" src="assets/icon/logo.svg" alt="Logo">
-                    <span class="font-semibold text-[27px] text-textPrimary hidden xl:block">Donate Bangladesh</span>
+                <div class="items-center gap-4 cursor-pointer hidden min-[400px]:flex">
+                    <img width="44px" src="assets/icon/logo.svg" alt="Logo">
+                    <span class="font-semibold text-[24px] text-textPrimary hidden xl:block">Donate Bangladesh</span>
                 </div>
                 <div>
-                    <div class="bg-offWhite p-3 px-4 rounded-lg flex items-center gap-3">
-                        <img src="assets/icon/Currency.svg" alt="Curency">
-                        <span id="wallet" class="text-xl text-textSecondary font-medium">0 BDT</span>
+                    <div class="bg-offWhite p-2 px-3 rounded-lg flex items-center gap-3 w-fit">
+                        <img width="20px" src="assets/icon/Currency.svg" alt="Curency">
+                        <span id="wallet" class="text-base text-textSecondary font-medium">0 BDT</span>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="tabs" class="fixed translate-y-[50%] bg-[#ffffff9a] left-0 w-full z-50 flex justify-center backdrop-blur-[6px] pt-5 min-[400px]:translate-y-[80%]">
-            <div class="inline-flex justify-center items-center w-primary px-10 py-5">
+        <div id="tabs" class="fixed translate-y-[46%] bg-[#ffffff9a] left-0 w-full z-50 flex justify-center backdrop-blur-[6px] pt-5 min-[400px]:translate-y-[74%]">
+            <div class="inline-flex justify-center items-center w-primary px-5 py-5">
                 <div class="flex gap-5 flex-col w-full min-[400px]:w-fit min-[400px]:flex-row">
                     <button
                         id="donateBtn"
-                        class="bg-primary p-10 py-3 rounded-lg font-semibold text-xl transition-colors border border-primary hover:border-textPrimary hover:bg-transparent">
+                        class="bg-primary p-7 py-2 rounded-lg font-semibold text-base transition-colors border border-primary hover:border-textPrimary hover:bg-transparent">
                         Donate
                     </button>
                     <button
                         id="historyBtn"
-                        class="bg-transparent p-10 py-3 rounded-lg font-semibold text-xl transition-colors border border-borderColor text-textSecondary hover:border-textPrimary hover:text-textPrimary">
+                        class="bg-transparent p-7 py-2 rounded-lg font-semibold text-base transition-colors border border-borderColor text-textSecondary hover:border-textPrimary hover:text-textPrimary">
                         History
                     </button>
                 </div>
@@ -67,7 +67,7 @@
     </header>
     <!-- header -->
     <section id="succesModal" class="flex justify-center w-full fixed z-[9999999999999] hidden">
-        <div class="w-primary inline-flex justify-center w-screen h-screen bg-[#0000003c] items-center">
+        <div class="w-primary inline-flex justify-center w-screen h-screen bg-[#0000003c] items-center px-10">
             <div class="bg-white rounded-2xl p-7 h-fit flex flex-col gap-5 px-32 justify-center text-center modal">
                 <span class="text-4xl font-semibold text-textPrimary">Congrates!</span>
                 <img class="self-center" width="50px" src="assets/icon/Currency.svg" alt="Curency">
@@ -79,11 +79,12 @@
     <main class="pt-[17.5rem] min-[400px]:pt-[12.5rem]">
         <section id="donateSection" class="flex justify-center">
             <!-- Donate 1 -->
-            <div class="inline-flex justify-center w-primary px-10 py-20 flex-col gap-10">
+            <div class="inline-flex justify-center w-primary px-5 py-20 flex-col gap-10">
                 <div class="flex items-start gap-10 p-10 border border-borderColor rounded-2xl flex-col xl:flex-row">
                     <!-- Donate Img -->
-                    <img class="rounded-2xl w-full h-auto object-cover xl:w-[533px] xl:h-[450px]" src="assets/images/d1.png" alt="Donate Image">
-                    <div class="flex flex-col gap-5">
+                    <div class="rounded-2xl w-full xl:w-5/12 h-[300px] md:h-[400px] lg:h-[600px] xl:h-[450px] !bg-cover !bg-no-repeat !bg-center" style="background: url(/assets/images/d1.png);">
+                    </div>
+                    <div class="flex flex-col gap-5 xl:w-7/12">
                         <!-- Already Donated -->
                         <div class="bg-offWhite p-3 px-4 rounded-lg flex items-center gap-3 w-fit">
                             <img src="assets/icon/Currency.svg" alt="Curency">
@@ -109,8 +110,9 @@
                 <!-- Donate 2 -->
                 <div class="flex items-start gap-10 p-10 border border-borderColor rounded-2xl flex-col xl:flex-row">
                     <!-- Donate Img -->
-                    <img class="rounded-2xl w-full h-auto object-cover xl:w-[533px] xl:h-full" src="assets/images/d2.png" alt="Donate Image">
-                    <div class="flex flex-col gap-5">
+                    <div class="rounded-2xl w-full xl:w-5/12 h-[300px] md:h-[400px] lg:h-[600px] xl:h-[450px] !bg-cover !bg-no-repeat !bg-center" style="background: url(/assets/images/d2.png);">
+                    </div>
+                    <div class="flex flex-col gap-5 xl:w-7/12">
                         <!-- Already Donated -->                       
                         <div class="bg-offWhite p-3 px-4 rounded-lg flex items-center gap-3 w-fit">
                             <img src="assets/icon/Currency.svg" alt="Curency">
@@ -133,8 +135,9 @@
                 <!-- Donate 3 -->
                 <div class="flex items-start gap-10 p-10 border border-borderColor rounded-2xl flex-col xl:flex-row">
                     <!-- Donate Img -->
-                    <img class="rounded-2xl w-full h-auto object-cover xl:w-[533px] xl:h-full" src="assets/images/d3.png" alt="Donate Image">
-                    <div class="flex flex-col gap-5">
+                    <div class="rounded-2xl w-full xl:w-5/12 h-[300px] md:h-[400px] lg:h-[600px] xl:h-[530px] !bg-cover !bg-no-repeat !bg-center" style="background: url(/assets/images/d3.png);">
+                    </div>
+                    <div class="flex flex-col gap-5 xl:w-7/12">
                         <!-- Already Donated -->                       
                         <div class="bg-offWhite p-3 px-4 rounded-lg flex items-center gap-3 w-fit">
                             <img src="assets/icon/Currency.svg" alt="Curency">
@@ -160,7 +163,7 @@
             </div>
         </section>
         <section id="historySection" class="flex justify-center pt-10 hidden">
-            <div id="historyBox" class="w-primary inline-flex justify-center px-10 gap-5 flex-col">
+            <div id="historyBox" class="w-primary inline-flex justify-center px-5 gap-5 flex-col">
                 <div id="noDaonate" class="w-full flex flex-col justify-center gap-5">
                     <img class="self-center" width="500px" src="assets/images/noDonate.svg" alt="No Donation">
                     <h2 class="text-3xl text-textPrimary self-center text-center">No Donations Was Found</h2>
